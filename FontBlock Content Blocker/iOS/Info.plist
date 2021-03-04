@@ -30,6 +30,6 @@
 		<string>$(PRODUCT_MODULE_NAME).ContentBlockerRequestHandler</string>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>Block advertisements and tracking scripts.</string>
+	<string>Block external fonts.</string>
 </dict>
 </plist>

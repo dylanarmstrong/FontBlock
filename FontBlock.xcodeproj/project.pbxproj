@@ -76,7 +76,7 @@
 		03B08AA01F58FEB00041C7D9 /* FontBlock Content Blocker macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FontBlock Content Blocker macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B08AA21F58FEB00041C7D9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		03B08AAB1F58FEB00041C7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03EF8F0A1B33B86F000FAF60 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = "FontBlock.safariextension/blockerList.json"; sourceTree = SOURCE_ROOT; };
+		03EF8F0A1B33B86F000FAF60 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = blockerList.json; path = FontBlock.safariextension/blockerList.json; sourceTree = SOURCE_ROOT; };
 		03FCD00C1B2AA68A00076943 /* FontBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FCD00F1B2AA68A00076943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03FCD0111B2AA68A00076943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 				03B08AAD1F58FEB00041C7D9 /* PBXTargetDependency */,
 			);
 			name = "FontBlock macOS";
-			productName = "FontBlock";
+			productName = FontBlock;
 			productReference = 037E1B221F58C5DE00E90B3F /* FontBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -251,7 +251,7 @@
 			dependencies = (
 			);
 			name = "FontBlock Content Blocker macOS";
-			productName = "FontBlock";
+			productName = FontBlock;
 			productReference = 03B08AA01F58FEB00041C7D9 /* FontBlock Content Blocker macOS.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
@@ -270,7 +270,7 @@
 				03FCD02D1B2AA77600076943 /* PBXTargetDependency */,
 			);
 			name = "FontBlock iOS";
-			productName = "FontBlock";
+			productName = FontBlock;
 			productReference = 03FCD00C1B2AA68A00076943 /* FontBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -481,14 +481,14 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.macos;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontblock.macos;
 				PRODUCT_NAME = FontBlock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -510,13 +510,13 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.macos;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontblock.macos;
 				PRODUCT_NAME = FontBlock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -535,15 +535,15 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock Content Blocker/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kablock.macos.FontBlock-Content-Blocker";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontblock.macos.FontBlockContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -562,14 +562,14 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock Content Blocker/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kablock.macos.FontBlock-Content-Blocker";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontblock.macos.FontBlockContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -687,8 +687,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock/iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontblock.ios;
 				PRODUCT_NAME = FontBlock;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -708,8 +708,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock/iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontblock.ios;
 				PRODUCT_NAME = FontBlock;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -728,8 +728,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock Content Blocker/iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios.FontBlockContentBlocker;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontblock.ios.FontBlockContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -750,8 +750,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock Content Blocker/iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kablock.ios.FontBlockContentBlocker;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fontblock.ios.FontBlockContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

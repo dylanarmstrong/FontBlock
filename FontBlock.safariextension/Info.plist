@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>David Graham &amp; Josh Peek</string>
+	<string>Dylan Armstrong</string>
 	<key>Builder Version</key>
 	<string>13604.5.6</string>
 	<key>CFBundleDisplayName</key>
-	<string>Ka-Block!</string>
+	<string>FontBlock</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.kablock.osx</string>
+	<string>com.fontblock.macos</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -22,14 +22,14 @@
 		<string>blockerList.json</string>
 	</dict>
 	<key>Description</key>
-	<string>Block advertisements and trackers to enjoy a faster web.</string>
+	<string>Block external fonts.</string>
 	<key>DeveloperIdentifier</key>
-	<string>UYW4V22L7E</string>
+  <string>RV8UZBRE4E</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Update Manifest URL</key>
-	<string>https://raw.githubusercontent.com/dgraham/Ka-Block/master/Ka-Block.plist</string>
+	<string>https://raw.githubusercontent.com/dylanarmstrong/FontBlock/master/FontBlock.plist</string>
 	<key>Website</key>
-	<string>http://kablock.com</string>
+	<string>https://dylan.is</string>
 </dict>
 </plist>

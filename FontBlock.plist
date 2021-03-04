@@ -6,17 +6,17 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>com.kablock.osx</string>
+       <string>com.fontblock.macos</string>
        <key>Developer Identifier</key>
-       <string>UYW4V22L7E</string>
+       <string>RV8UZBRE4E</string>
        <key>CFBundleVersion</key>
-       <string>300</string>
+       <string>100</string>
        <key>CFBundleShortVersionString</key>
-       <string>3.0</string>
+       <string>1.0</string>
        <key>Update From Gallery</key>
        <true/>
        <key>URL</key>
-       <string>https://raw.githubusercontent.com/dgraham/Ka-Block/master/Ka-Block.safariextz</string>
+       <string>https://raw.githubusercontent.com/dylanarmstrong/FontBlock/master/FontBlock.safariextz</string>
      </dict>
    </array>
 </dict>
