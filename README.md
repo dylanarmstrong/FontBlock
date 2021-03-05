@@ -6,9 +6,10 @@ A Safari browser extension that blocks external fonts.
 
 ## Updating the domain list
 
-If there's a external font domain that's getting through the filter, open
-a pull request with the domain and a site or two on which it appears. We'll
-add it to the [blocked domains list](/FontBlock.safariextension/blockerList.json)
+If there's a external font domain that's getting through the filter
+or this is breaking a website, please open a pull request with the domain
+and a site or two on which it appears. We'll add it to the
+[blocked domains list](/FontBlock.safariextension/blockerList.json)
 and release a new version of the extension to include it.
 
 ## License

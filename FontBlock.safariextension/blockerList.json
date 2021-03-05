@@ -1,10 +1,155 @@
 [
   {
     "trigger": {
-      "url-filter": "^https?:/+([^/:]+\\.)?fonts\\.googleapis\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
+      "url-filter": "^https?:/+([^/:]+\\.)?fonts\\.googleapis\\.com/css",
       "load-type": [
         "third-party"
+      ],
+      "resource-type": [
+        "style-sheet"
+      ],
+      "unless-top-url": [
+        "^https?:/+([^/:]+\\.)?www\\.cnbc\\.com/quotes/"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?g1\\.nyt\\.com[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?m\\.media-amazon\\.com[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?static\\.chasecdn\\.com[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?www\\.redditstatic\\.com[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?fm\\.cnbc\\.com[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?www\\.bloomberg\\.com[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?assets\\.bwbx\\.io[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?interactive\\.guim\\.co\\.uk[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?static-redesign\\.cnbcfm\\.com[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?static\\.twitchcdn\\.net[:/]",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
       ]
     },
     "action": {
@@ -14,13 +159,58 @@
   {
     "trigger": {
       "url-filter": "^https?:/+([^/:]+\\.)?fonts\\.gstatic\\.com[:/]",
-      "url-filter-is-case-sensitive": true,
       "load-type": [
         "third-party"
+      ],
+      "resource-type": [
+        "style-sheet",
+        "font"
       ]
     },
     "action": {
       "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?static-redesign\\.cnbcfm\\.com/dist/icomoon.ttf",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?static\\.chasecdn\\.com/.*/fonts/dcefont.woff",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?:/+([^/:]+\\.)?static\\.chasecdn\\.com/.*/iconfont/mds-chase-icons.woff",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "font"
+      ]
+    },
+    "action": {
+      "type": "ignore-previous-rules"
     }
   }
 ]
