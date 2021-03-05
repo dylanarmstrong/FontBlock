@@ -6,8 +6,8 @@ A Safari browser extension that blocks external fonts.
 
 ## Updating the domain list
 
-If there's a pesky ad-serving domain that's getting through the filter, open
-a pull request with the domain and a site or two on which its ads appear. We'll
+If there's a external font domain that's getting through the filter, open
+a pull request with the domain and a site or two on which it appears. We'll
 add it to the [blocked domains list](/FontBlock.safariextension/blockerList.json)
 and release a new version of the extension to include it.
 
@@ -22,5 +22,5 @@ Forked from the excellent [Ka-Block!](https://github.com/dgraham/Ka-Block) proje
 
 <3
 
-[macos]: https://itunes.apple.com/us/app/ka-block/id1335413823?mt=12
-[ios]: https://geo.itunes.apple.com/us/app/ka-block!/id1037173557?mt=8
+[macos]: TBD
+[ios]: TBD
