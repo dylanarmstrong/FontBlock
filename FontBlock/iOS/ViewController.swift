@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
     
     @objc func checkEnabled() {
-        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.fontblock.ios.FontBlockContentBlocker", completionHandler: {
+        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.dylans.fontblock.ContentBlocker", completionHandler: {
             (state, error) in
 
             if let state = state {

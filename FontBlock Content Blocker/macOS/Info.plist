@@ -30,7 +30,7 @@
 		<string>$(PRODUCT_MODULE_NAME).ContentBlockerRequestHandler</string>
 		<key>SFSafariExtensionBundleIdentifiersToUninstall</key>
 		<array>
-			<string>com.fontblock.macos</string>
+			<string>com.dylans.fontblock</string>
 		</array>
 	</dict>
 	<key>NSHumanReadableDescription</key>

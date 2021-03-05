@@ -21,7 +21,7 @@ class ViewController: NSViewController {
     }
 
     @objc func updateContentBlockerState() {
-        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.fontblock.macos.FontBlockContentBlocker") {
+        SFContentBlockerManager.getStateOfContentBlocker(withIdentifier: "com.dylans.fontblock.ContentBlocker") {
             (state, error) in
 
             if let state = state {
