@@ -16,6 +16,10 @@ and release a new version of the extension to include it.
 FontBlock is released under the terms of the MIT license. Check the LICENSE
 file for details.
 
+## Privacy Policy
+
+Nothing is collected or stored.
+
 ## History
 
 Forked from the excellent [Ka-Block!](https://github.com/dgraham/Ka-Block) project.
