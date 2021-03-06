@@ -9,20 +9,28 @@
 /* Begin PBXBuildFile section */
 		031C21921FB5553C00CD2F47 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCD0291B2AA77600076943 /* ContentBlockerRequestHandler.swift */; };
 		031C21931FB5553D00CD2F47 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCD0291B2AA77600076943 /* ContentBlockerRequestHandler.swift */; };
-		037E1B251F58C5DE00E90B3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037E1B241F58C5DE00E90B3F /* AppDelegate.swift */; };
-		037E1B271F58C5DE00E90B3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037E1B261F58C5DE00E90B3F /* ViewController.swift */; };
 		037E1B291F58C5DE00E90B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037E1B281F58C5DE00E90B3F /* Assets.xcassets */; };
-		037E1B2C1F58C5DE00E90B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037E1B2A1F58C5DE00E90B3F /* Main.storyboard */; };
 		0383160B1F5903D50004B1DD /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 03EF8F0A1B33B86F000FAF60 /* blockerList.json */; };
-		03B08AA31F58FEB00041C7D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B08AA21F58FEB00041C7D9 /* Cocoa.framework */; };
 		03B08AAE1F58FEB00041C7D9 /* FontBlock Content Blocker macOS.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03B08AA01F58FEB00041C7D9 /* FontBlock Content Blocker macOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		03EF8F0B1B33B86F000FAF60 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 03EF8F0A1B33B86F000FAF60 /* blockerList.json */; };
-		03FCD0101B2AA68A00076943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCD00F1B2AA68A00076943 /* AppDelegate.swift */; };
-		03FCD0121B2AA68A00076943 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCD0111B2AA68A00076943 /* ViewController.swift */; };
-		03FCD0151B2AA68A00076943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FCD0131B2AA68A00076943 /* Main.storyboard */; };
 		03FCD0171B2AA68A00076943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FCD0161B2AA68A00076943 /* Assets.xcassets */; };
-		03FCD01A1B2AA68A00076943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FCD0181B2AA68A00076943 /* LaunchScreen.storyboard */; };
 		03FCD02E1B2AA77600076943 /* FontBlock Content Blocker iOS.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03FCD0251B2AA77600076943 /* FontBlock Content Blocker iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FC2E554325F68CC60051CA33 /* DebugText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E554225F68CC60051CA33 /* DebugText.swift */; };
+		FC2E554425F68CC60051CA33 /* DebugText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E554225F68CC60051CA33 /* DebugText.swift */; };
+		FC529AD325F2A76E00E5E523 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC529AD225F2A76E00E5E523 /* Constants.swift */; };
+		FC529AD425F2A76E00E5E523 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC529AD225F2A76E00E5E523 /* Constants.swift */; };
+		FC529B1925F2A94F00E5E523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC529B1825F2A94F00E5E523 /* ContentView.swift */; };
+		FC529B1A25F2A94F00E5E523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC529B1825F2A94F00E5E523 /* ContentView.swift */; };
+		FC529B5025F2AC1E00E5E523 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC529B4F25F2AC1E00E5E523 /* Main.swift */; };
+		FC529B5125F2AC1E00E5E523 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC529B4F25F2AC1E00E5E523 /* Main.swift */; };
+		FC529B6425F2AD3E00E5E523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC529B6325F2AD3E00E5E523 /* Assets.xcassets */; };
+		FC529B6525F2AD3E00E5E523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC529B6325F2AD3E00E5E523 /* Assets.xcassets */; };
+		FC72A97E25F2C7F500F0AA7C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72A97D25F2C7F500F0AA7C /* Status.swift */; };
+		FC72A97F25F2C7F500F0AA7C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72A97D25F2C7F500F0AA7C /* Status.swift */; };
+		FC72A9A725F2CB9000F0AA7C /* EnabledText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72A9A625F2CB9000F0AA7C /* EnabledText.swift */; };
+		FC72A9A825F2CB9000F0AA7C /* EnabledText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72A9A625F2CB9000F0AA7C /* EnabledText.swift */; };
+		FC72A9B225F2CBF100F0AA7C /* DisabledText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72A9B125F2CBF100F0AA7C /* DisabledText.swift */; };
+		FC72A9B325F2CBF100F0AA7C /* DisabledText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72A9B125F2CBF100F0AA7C /* DisabledText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,26 +76,26 @@
 
 /* Begin PBXFileReference section */
 		037E1B221F58C5DE00E90B3F /* FontBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		037E1B241F58C5DE00E90B3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		037E1B261F58C5DE00E90B3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		037E1B281F58C5DE00E90B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		037E1B2B1F58C5DE00E90B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		037E1B2D1F58C5DE00E90B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03B08AA01F58FEB00041C7D9 /* FontBlock Content Blocker macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FontBlock Content Blocker macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03B08AA21F58FEB00041C7D9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		03B08AAB1F58FEB00041C7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03EF8F0A1B33B86F000FAF60 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.json; name = blockerList.json; path = FontBlock.safariextension/blockerList.json; sourceTree = SOURCE_ROOT; tabWidth = 2; };
 		03FCD00C1B2AA68A00076943 /* FontBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03FCD00F1B2AA68A00076943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03FCD0111B2AA68A00076943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03FCD0141B2AA68A00076943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03FCD0161B2AA68A00076943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03FCD0191B2AA68A00076943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03FCD01B1B2AA68A00076943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03FCD0251B2AA77600076943 /* FontBlock Content Blocker iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FontBlock Content Blocker iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FCD0291B2AA77600076943 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		03FCD02B1B2AA77600076943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		634FDD33200C233300C669C0 /* FontBlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FontBlock.entitlements; sourceTree = "<group>"; };
+		FC2E554225F68CC60051CA33 /* DebugText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugText.swift; sourceTree = "<group>"; };
+		FC529AD225F2A76E00E5E523 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FC529B1825F2A94F00E5E523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC529B4F25F2AC1E00E5E523 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		FC529B6325F2AD3E00E5E523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC72A97D25F2C7F500F0AA7C /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		FC72A9A625F2CB9000F0AA7C /* EnabledText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnabledText.swift; sourceTree = "<group>"; };
+		FC72A9B125F2CBF100F0AA7C /* DisabledText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledText.swift; sourceTree = "<group>"; };
 		FC7453F725F15FCE0096F222 /* FontBlock Content Blocker.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "FontBlock Content Blocker.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B08AA31F58FEB00041C7D9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,11 +142,7 @@
 		0322215C1F58BD7600DEA4FE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				03FCD00F1B2AA68A00076943 /* AppDelegate.swift */,
-				03FCD0111B2AA68A00076943 /* ViewController.swift */,
-				03FCD0131B2AA68A00076943 /* Main.storyboard */,
 				03FCD0161B2AA68A00076943 /* Assets.xcassets */,
-				03FCD0181B2AA68A00076943 /* LaunchScreen.storyboard */,
 				03FCD01B1B2AA68A00076943 /* Info.plist */,
 			);
 			path = iOS;
@@ -148,21 +151,10 @@
 		0351C3E21F58C60600BD5982 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				037E1B241F58C5DE00E90B3F /* AppDelegate.swift */,
-				037E1B261F58C5DE00E90B3F /* ViewController.swift */,
 				037E1B281F58C5DE00E90B3F /* Assets.xcassets */,
-				037E1B2A1F58C5DE00E90B3F /* Main.storyboard */,
 				037E1B2D1F58C5DE00E90B3F /* Info.plist */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		03B08AA11F58FEB00041C7D9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				03B08AA21F58FEB00041C7D9 /* Cocoa.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		03E9442A1F58FEDB00187B69 /* macOS */ = {
@@ -180,7 +172,6 @@
 				634FDD33200C233300C669C0 /* FontBlock.entitlements */,
 				03FCD00E1B2AA68A00076943 /* FontBlock */,
 				03FCD0261B2AA77600076943 /* FontBlock Content Blocker */,
-				03B08AA11F58FEB00041C7D9 /* Frameworks */,
 				03FCD00D1B2AA68A00076943 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -199,6 +190,7 @@
 		03FCD00E1B2AA68A00076943 /* FontBlock */ = {
 			isa = PBXGroup;
 			children = (
+				FC529AD025F2A74300E5E523 /* Shared */,
 				0322215C1F58BD7600DEA4FE /* iOS */,
 				0351C3E21F58C60600BD5982 /* macOS */,
 			);
@@ -214,6 +206,61 @@
 				03E9442A1F58FEDB00187B69 /* macOS */,
 			);
 			path = "FontBlock Content Blocker";
+			sourceTree = "<group>";
+		};
+		FC529AD025F2A74300E5E523 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FC529B4F25F2AC1E00E5E523 /* Main.swift */,
+				FC72A9A025F2CB4200F0AA7C /* Views */,
+				FC72A98825F2C8A200F0AA7C /* Model */,
+				FC529B6225F2AD0900E5E523 /* Resources */,
+				FC529AD125F2A75700E5E523 /* Support */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FC529AD125F2A75700E5E523 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FC529AD225F2A76E00E5E523 /* Constants.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		FC529B6225F2AD0900E5E523 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC529B6325F2AD3E00E5E523 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC72A98825F2C8A200F0AA7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC72A97D25F2C7F500F0AA7C /* Status.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC72A9A025F2CB4200F0AA7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC72A9A525F2CB8000F0AA7C /* Helpers */,
+				FC529B1825F2A94F00E5E523 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC72A9A525F2CB8000F0AA7C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC72A9A625F2CB9000F0AA7C /* EnabledText.swift */,
+				FC72A9B125F2CBF100F0AA7C /* DisabledText.swift */,
+				FC2E554225F68CC60051CA33 /* DebugText.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,8 +399,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC529B6525F2AD3E00E5E523 /* Assets.xcassets in Resources */,
 				037E1B291F58C5DE00E90B3F /* Assets.xcassets in Resources */,
-				037E1B2C1F58C5DE00E90B3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,9 +416,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03FCD01A1B2AA68A00076943 /* LaunchScreen.storyboard in Resources */,
 				03FCD0171B2AA68A00076943 /* Assets.xcassets in Resources */,
-				03FCD0151B2AA68A00076943 /* Main.storyboard in Resources */,
+				FC529B6425F2AD3E00E5E523 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,8 +436,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				037E1B271F58C5DE00E90B3F /* ViewController.swift in Sources */,
-				037E1B251F58C5DE00E90B3F /* AppDelegate.swift in Sources */,
+				FC529B5125F2AC1E00E5E523 /* Main.swift in Sources */,
+				FC529B1A25F2A94F00E5E523 /* ContentView.swift in Sources */,
+				FC2E554425F68CC60051CA33 /* DebugText.swift in Sources */,
+				FC72A9A825F2CB9000F0AA7C /* EnabledText.swift in Sources */,
+				FC529AD425F2A76E00E5E523 /* Constants.swift in Sources */,
+				FC72A9B325F2CBF100F0AA7C /* DisabledText.swift in Sources */,
+				FC72A97F25F2C7F500F0AA7C /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,8 +458,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03FCD0121B2AA68A00076943 /* ViewController.swift in Sources */,
-				03FCD0101B2AA68A00076943 /* AppDelegate.swift in Sources */,
+				FC529B5025F2AC1E00E5E523 /* Main.swift in Sources */,
+				FC72A9B225F2CBF100F0AA7C /* DisabledText.swift in Sources */,
+				FC2E554325F68CC60051CA33 /* DebugText.swift in Sources */,
+				FC529B1925F2A94F00E5E523 /* ContentView.swift in Sources */,
+				FC529AD325F2A76E00E5E523 /* Constants.swift in Sources */,
+				FC72A97E25F2C7F500F0AA7C /* Status.swift in Sources */,
+				FC72A9A725F2CB9000F0AA7C /* EnabledText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,33 +491,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		037E1B2A1F58C5DE00E90B3F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				037E1B2B1F58C5DE00E90B3F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		03FCD0131B2AA68A00076943 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03FCD0141B2AA68A00076943 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		03FCD0181B2AA68A00076943 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03FCD0191B2AA68A00076943 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		037E1B2E1F58C5DE00E90B3F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -480,8 +509,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylans.fontblock;
 				PRODUCT_NAME = FontBlock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -509,8 +538,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylans.fontblock;
 				PRODUCT_NAME = FontBlock;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -534,8 +563,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock Content Blocker/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylans.fontblock.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -561,8 +590,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock Content Blocker/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylans.fontblock.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -685,9 +714,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HTHS9N22BN;
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock/iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylans.fontblock;
 				PRODUCT_NAME = FontBlock;
 				PROVISIONING_PROFILE = "";
@@ -706,9 +735,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HTHS9N22BN;
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock/iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylans.fontblock;
 				PRODUCT_NAME = FontBlock;
 				PROVISIONING_PROFILE = "";
@@ -728,7 +757,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock Content Blocker/iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylans.fontblock.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -750,7 +779,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/FontBlock Content Blocker/iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 2;
+				MARKETING_VERSION = 3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dylans.fontblock.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

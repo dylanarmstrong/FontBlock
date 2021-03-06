@@ -27,5 +27,5 @@ Forked from the excellent [Ka-Block!](https://github.com/dgraham/Ka-Block) proje
 
 <3
 
-[macos]: TBD
-[ios]: TBD
+[macos]: https://apps.apple.com/us/app/fontblock/id1556776610
+[ios]: https://apps.apple.com/us/app/fontblock/id1556776610
